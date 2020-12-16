@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Workout Planner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Today's Workout</h1>
+    <div class="wrapper">
+      <div class="box">
+        <div id="newworkout">
+          <form>
+            <h2>Add a Workout</h1>
+            <p>
+              <label>Name:</label>
+              <input type="text" id="new-workout-name">
+            </p>
+            <p>
+              <label>Sets:</label>
+              <input type="number" id="new-workout-sets">
+            </p>
+            <p>
+              <label>Reps:</label>
+              <input type="number" id="new-workout-reps">
+            </p>
+            <p>
+              <label>Tut:</label> 
+              <input type="text" id="new-workout-tut">
+            </p>
+            <p>
+              <label>Rest:</label>
+              <input type="text" id="new-workout-rest">
+            </p>
+          </form>
+          <button id="add">Add Workout</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <ol id="workouts">
+        </ol>
+      </div>
+
+      <div class="box">
+        <div id="updateform">
+            <form>
+                <h2>Update a Workout</h1>
+              <p id ="update-workout-id">
+    
+                <label>Id:</label>
+                <input type="number" >
+              </p>
+              <p>
+                <label>Name:</label>
+                <input type="text" id="update-workout-name">
+              </p>
+              <p>
+                <label>Sets:</label>
+                <input type="number" id="update-workout-sets">
+              </p>
+              <p>
+                <label>Reps:</label>
+                <input type="number" id="update-workout-reps">
+              </p>
+              <p>
+                <label>Tut:</label>
+                <input type="text" id="update-workout-tut">
+              </p>
+              <p>
+                <label>Rest:</label>
+                <input type="text" id="update-workout-rest">
+              </p>
+            </form>
+            <button id="update">Update workout</button>
+          </div>
+      </div>
+
+      
+    </div>
+    
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
